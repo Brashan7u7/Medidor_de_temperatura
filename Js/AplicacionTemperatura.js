@@ -8,7 +8,7 @@ class AplicacionTemperatura {
     ingresarTemperatura(dia, temp) {
         this.datosSemana.agregarTemperatura(dia, temp);
     }
-
+//Proyecto terminado
     mostrarDatos() {
         return this.visualizador.mostrarDatos(this.datosSemana.obtenerTodasLasTemperaturas());
     }
